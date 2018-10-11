@@ -1,0 +1,17 @@
+form{
+    width: 358px;
+    margin:auto;
+    border: 1px solid #f00;
+}
+.el-form-item__label {
+    position: absolute;
+    z-index: 10;
+  
+}
+.el-form-item__label::before{
+    content: ''!important;
+}
+.el-button--primary,.el-button--primary:hover {
+    background-color:#ef494d;
+    border-color: #ef494d;
+}
